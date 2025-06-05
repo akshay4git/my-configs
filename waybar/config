@@ -1,0 +1,62 @@
+{
+    "include": [
+        "$HOME/.config/waybar/Modules",
+        "$HOME/.config/waybar/ModulesWorkspaces",
+        "$HOME/.config/waybar/ModulesCustom",
+        "$HOME/.config/waybar/ModulesGroups",
+    ],
+    "layer": "top",
+    //"mode": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "position": "top",
+    "spacing": 3,
+    "fixed-center": true,
+    "ipc": false,
+    "margin-top": 3,
+    "margin-left": 8,
+    "margin-right": 8,
+
+    "modules-left": [
+    "custom/separator#blank_2",
+    "hyprland/window",
+    "custom/separator#blank",
+    "custom/playerctl",
+    "custom/separator#blank",
+    "custom/separator#blank_2",
+    "mpris",
+    "custom/separator#blank",
+    "custom/cava_mviz"
+    ],
+
+    "modules-center": [
+    "custom/separator#blank",
+    "hyprland/submap",
+    "custom/separator#blank",
+    "hyprland/workspaces#numbers",
+    "clock"
+    ],
+
+    "modules-right": [
+    "tray",
+    "network#speed",
+    "custom/separator#blank",
+    "backlight",
+    "custom/separator#blank",
+    "battery",
+    "custom/separator#blank",
+    "cpu",
+    "custom/separator#blank",
+    "power-profiles-daemon",	
+    "custom/separator#blank",
+    "memory",
+    "custom/separator#blank",
+    "disk",
+    "custom/separator#blank",
+    "pulseaudio",
+    "custom/separator#blank", 
+    "pulseaudio#microphone",
+    "custom/separator#blank", 
+	"custom/lock",
+    ],
+}
